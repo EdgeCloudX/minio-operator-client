@@ -19,8 +19,8 @@
 package v1
 
 import (
-	v1 "github.com/htlabc/minio-operator-api/apis/minio.min.io/v1"
-	"github.com/htlabc/minio-operator-api/clientset/versioned/scheme"
+	v1 "github.com/EdgeCloudX/minio-operator-client/apis/minio.min.io/v1"
+	"github.com/EdgeCloudX/minio-operator-client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

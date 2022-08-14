@@ -21,7 +21,7 @@ package fake
 import (
 	"context"
 
-	v2 "github.com/htlabc/minio-operator-api/apis/minio.min.io/v2"
+	v2 "github.com/EdgeCloudX/minio-operator-client/apis/minio.min.io/v2"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

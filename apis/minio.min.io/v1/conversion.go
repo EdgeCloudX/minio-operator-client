@@ -17,7 +17,7 @@
 package v1
 
 import (
-	v2 "github.com/htlabc/minio-operator-api/apis/minio.min.io/v2"
+	v2 "github.com/EdgeCloudX/minio-operator-client/apis/minio.min.io/v2"
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
 )

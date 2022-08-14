@@ -19,11 +19,11 @@
 package fake
 
 import (
-	clientset "github.com/htlabc/minio-operator-api/clientset/versioned"
-	miniov1 "github.com/htlabc/minio-operator-api/clientset/versioned/typed/minio.min.io/v1"
-	fakeminiov1 "github.com/htlabc/minio-operator-api/clientset/versioned/typed/minio.min.io/v1/fake"
-	miniov2 "github.com/htlabc/minio-operator-api/clientset/versioned/typed/minio.min.io/v2"
-	fakeminiov2 "github.com/htlabc/minio-operator-api/clientset/versioned/typed/minio.min.io/v2/fake"
+	clientset "github.com/EdgeCloudX/minio-operator-client/clientset/versioned"
+	miniov1 "github.com/EdgeCloudX/minio-operator-client/clientset/versioned/typed/minio.min.io/v1"
+	fakeminiov1 "github.com/EdgeCloudX/minio-operator-client/clientset/versioned/typed/minio.min.io/v1/fake"
+	miniov2 "github.com/EdgeCloudX/minio-operator-client/clientset/versioned/typed/minio.min.io/v2"
+	fakeminiov2 "github.com/EdgeCloudX/minio-operator-client/clientset/versioned/typed/minio.min.io/v2/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

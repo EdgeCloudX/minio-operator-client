@@ -1,4 +1,4 @@
-module github.com/htlabc/minio-operator-api
+module github.com/EdgeCloudX/minio-operator-client
 
 go 1.17
 
